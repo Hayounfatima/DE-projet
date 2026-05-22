@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "source_fichier": "./data/sample_offres.json",
+    "date_ingestion": "2026-05-22T19:30:33.390995",
+    "partition": "rekrute/2024_08",
+    "nb_offres": 1
+  },
+  "offres": [
+    {
+      "id_offre": "RK-2024-08471",
+      "source": "rekrute",
+      "titre_poste": "Développeur Full Stack React/Node.js",
+      "description": "Nous recherchons un développeur Full Stack expérimenté maîtrisant React, Node.js, PostgreSQL. Connaissance de Docker et AWS appréciée. Le candidat devra travailler en méthode Agile avec une équipe de 5 personnes...",
+      "competences_brut": "React, Node.js, PostgreSQL, Docker, AWS, Agile, Git",
+      "entreprise": "TechMaroc SARL",
+      "ville": "Casablanca",
+      "type_contrat": "CDI",
+      "experience_requise": "3-5 ans",
+      "salaire_brut": "15000-20000 MAD",
+      "niveau_etudes": "Bac+5",
+      "secteur": "Informatique / Télécom",
+      "date_publication": "2024-08-15",
+      "date_expiration": "2024-09-15",
+      "nb_postes": 1,
+      "teletravail": "Hybride",
+      "langue_requise": [
+        "Français",
+        "Anglais"
+      ]
+    }
+  ]
+}
