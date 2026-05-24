@@ -14,7 +14,10 @@ def ingerer_bronze(filepath_source: str, data_lake_root: str) -> dict:
     with open(filepath_source, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    offres = data.get('offres', [])
+    if isinstance(data, list):
+        offres = data
+    else:
+        offres = data.get('offres', [])
     stats = {'total': len(offres), 'par_source': {}, 'par_mois': {}}
 
     # Partitionnement par source et par mois
