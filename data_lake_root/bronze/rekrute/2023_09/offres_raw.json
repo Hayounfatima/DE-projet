@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_fichier": "./data/sample_offres.json",
-    "date_ingestion": "2026-05-23T00:27:14.211265",
+    "date_ingestion": "2026-05-24T20:28:33.678334",
     "partition": "rekrute/2023_09",
     "nb_offres": 81
   },

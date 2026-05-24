@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_fichier": "./data/sample_offres.json",
-    "date_ingestion": "2026-05-23T00:27:13.974246",
+    "date_ingestion": "2026-05-24T20:28:33.264504",
     "partition": "marocannonce/2024_01",
     "nb_offres": 59
   },
