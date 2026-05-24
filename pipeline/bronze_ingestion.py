@@ -2,6 +2,8 @@ import json
 import os
 from datetime import datetime
 
+from nltk import data
+
 def ingerer_bronze(filepath_source: str, data_lake_root: str) -> dict:
     """
     Charge les données brutes dans la zone Bronze sans aucune modification.
@@ -14,6 +16,10 @@ def ingerer_bronze(filepath_source: str, data_lake_root: str) -> dict:
     with open(filepath_source, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+<<<<<<< Updated upstream
+=======
+ 
+>>>>>>> Stashed changes
     if isinstance(data, list):
         offres = data
     else:
